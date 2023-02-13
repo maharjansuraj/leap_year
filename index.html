@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Leap year and 12 Horary signs</title>
+
+	<style type="text/css">
+
+		body{
+			background-color:aliceblue;
+			text-align: center;
+			padding:150px 0 0 0;
+			color: green;
+		}
+	</style>
+</head>
+<body>
+	<h1>Leap year and Horary Signs</h1>
+
+	<script type="text/javascript">
+	var year=prompt("Enter the year here: ");
+	year=parseInt(year);
+	if (((year%400==0)|| (year%4==0))&&(year%100!=0)){
+		document.write(year+" " +"<h2>Leap year</h2>");
+	}
+	else{
+		document.write(year+ " <h2>Common Year</h2>");
+	}
+
+	if (year%12==0) {
+		 document.write("<h3>Monkey</h3>");
+		 document.write('<img src="img/monkey.jpg\">');     //images sources:google.com
+
+	}
+	else if (year%12==1){
+		document.write("<h3>Cock</h3>");
+		document.write('<img src="img/cock.jpg\">');				//images sources: google.com
+	}
+
+else if (year%12==2){
+ 		document.write("<h3>Dog</h3>");
+		document.write('<img src="img/dog.jpeg\">');				//images sources: google.com
+ }
+ else if (year%12==3){
+ 		document.write("<h3>Boar</h3>");
+		document.write('<img src="img/boar.jpeg\">');				//images sources: google.com
+ }
+ else if (year%12==4){
+ 		document.write("<h3>Rat</h3>");
+		document.write('<img src="img/rat.jpg\">');					//images sources: google.com
+ }
+ else if (year%12==5){
+ 		document.write("<h3>Ox</h3>");
+		document.write('<img src="img/ox.jpeg\">');					//images sources: google.com
+ }
+ else if (year%12==6){
+ 		document.write("<h3>Tiger</h3>");
+		document.write('<img src="img/tiger.jpg\">');				//images sources: google.com
+ }
+ else if (year%12==7){
+ 		document.write("<h3>Hare</h3>");
+		document.write('<img src="img/hare.jpeg\">');				//images sources: google.com
+ }
+ else if (year%12==8){
+ 		document.write("<h3>Dragon</h3>");
+		document.write('<img src="img/dragon.jpeg\">');			//images sources: google.com
+ }
+ else if (year%12==9){
+ 		document.write("<h3>Serphant</h3>");
+		document.write('<img src="img/serphant.jpeg\">');		//images sources: google.com
+ }
+ else if (year%12==10){
+ 		document.write("<h3>Horse</h3>");
+		document.write('<img src="img/horse.jpg\">');				//images sources: google.com
+ }
+ else {
+	 if (year%12==11){
+ 		document.write("<h3>Sheep</h3>");
+		document.write('<img src="img/sheep.jpeg\">');			//images sources: google.com
+	}
+}
+
+ 			</script>
+</body>
+</html>
